@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+  v2.0 | 20110126
+  License: none (public domain)
 */
 
 html,
@@ -133,19 +133,48 @@ table {
 .header {
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	padding: 1rem;
 }
 
 .logo {
-	width: 200px;
+	width: 170px;
 }
 
-.library {
+.form-sheet {
+	display: flex;
+	justify-content: center;
+}
+input[type="text"] {
+	width: 100%;
+	padding: 1em 2em;
+	margin: 1em;
+	display: inline-block;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 0.5em;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: rgb(230, 59, 201);
+	color: white;
+	padding: 1em 2em;
+	margin: 1em;
+	border: none;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: rgb(149, 33, 137);
+}
+
+/* .library {
 	display: flex;
 	justify-content: center;
 	border: 1px solid red;
-}
+} */
 
 .add {
 	font-size: 36px;
